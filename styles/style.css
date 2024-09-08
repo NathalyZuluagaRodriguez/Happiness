@@ -537,16 +537,20 @@ justify-content: space-around;
     .section3 p{
         font-size: 15px;
         margin: 15px;
-        width: 400px;
+        width: 325px;
     }
     .section3 img {
-        width: 230px;
+        width: 200px;
         position: relative;
         z-index: 1;
-        left: 161px;
+        left: 140px;
         top: -28px;
     }
 
+    .container2 {
+        margin: 50px;
+        max-width: 210px;
+    }
     .title-section3{
         width: 142px;
     }
@@ -621,9 +625,32 @@ justify-content: space-around;
     }
 
     .section8 .contain8 {
-        width: 380px;
+        width: 350px;
        
     }
+
+    .section8 .box2 input {
+        width: 285px;
+    }
+    .section8 .box3 input {
+        width: 285px;
+    }
+    .section8 .box4 input {
+        width: 285px;
+        height: 100px;
+    }
+
+    .section8 .box1 input {
+        width: 116px;
+        margin-left: -13px;
+    }
+
+    .section8 .contain8 p {
+        margin-left: 20px;
+        font-size: 10px;
+        width: 300px;
+    }
+
     .text-container {
         margin-left: 65px;
 
