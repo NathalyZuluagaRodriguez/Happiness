@@ -1,0 +1,640 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.open-sans-uniquifier {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }  
+
+body {
+    margin: 0;
+    font-family: 'Roboto','Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+header {
+    background-color: #FFD700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.main{
+    display: flex;
+    width: 1000px;
+    background:blanchedalmond;
+    justify-content: center;
+    box-sizing: content-box;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.container1{
+    margin: 80px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 60px;
+    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.but-yellow{
+    background-color:#FFD700 ;
+    border-radius: 2px ;
+    padding: 5px 22px;
+    border: none; 
+    font-weight:bold ;
+
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    
+    margin: 100px;
+    padding: 10px;
+    background-color:#f2f2f2;
+    max-width: 930px;
+    position: relative;
+    bottom: 25px;
+    z-index: 1;
+
+}
+.caja{
+    display: flex;
+    justify-content: center;
+}
+
+.container2{
+    margin: 50px;
+    max-width: 290px;
+
+}
+
+.img-container2{
+    padding: 10px;
+    margin: 15px;
+}
+
+.img-barras{
+    margin: 10px;
+}
+
+.title-yellow{
+    font-size: 40px;
+    margin: 0px;
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+}
+.read-more{
+    font-weight: bold;
+}
+
+.section3{
+ background-color: #FFD700;
+margin-top: -300px;
+height: 800px;
+padding: 150px;
+}
+
+
+
+.title-section3{
+    width: 800px;
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.section3 p{
+    width: 500px;
+    font-size: 25px;
+}
+
+.section3 img{
+    width:  720px;
+    position: relative;
+    z-index: 1;
+    left: 550px;
+    top:-300px;
+}
+
+.section3 button{
+    border:none;
+    background-color: #000;
+    color: white;
+    width: 100px;
+    height: 25px;
+  
+    
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-right: 150px;
+    align-items: center;
+    background: linear-gradient(to right, #ffffff 50%, #f4f4f4 100%);
+}
+.contenedor4-div{
+    padding-bottom: 50px;
+    margin-left: 20px;
+    width: 40%;
+}
+
+.titulo4{
+    display: flex;
+    color:  rgb(247, 205, 21);
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.botton4{
+    margin-top: 40px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: rgb(5, 5, 5);
+    border: none;
+}
+
+.section7{
+    background-color:#f2f2f2;;
+    display: flex;
+    padding: 80px;
+    justify-content: space-around;
+}
+.container7{
+    padding-top: 200px;
+    margin-left: 30px;
+}
+.titulo7{
+    font-size: 45px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.texto7{
+    padding-right: 70px;
+    font-family: "Open Sans", sans-serif;
+}
+.botton7{
+    margin-top: 20px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    background-color:rgb(247, 205, 21);
+    border: none;
+}
+
+.imagen4{
+    padding-top: 10px;
+    padding-left: 200px;
+    
+}
+
+.section5{
+    text-align: center;
+    background-color: black;
+    margin-top: 100px;
+}
+.titulo5{
+    padding-top: 60px;
+    color: rgb(247, 205, 21);;
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.texto5{
+    padding-left: 300px;
+    margin: 30px;
+    padding-right: 300px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+.botton5{
+    margin-top: 20px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    background-color:rgb(247, 205, 21);
+    border: none;
+    margin: 40px;
+}
+
+.section6{
+    display: flex;
+    padding: 80px;
+    justify-content: space-around;
+}
+.container6{
+    padding-top: 200px;
+    margin-left: 30px;
+}
+.titulo6{
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.texto6{
+    padding-right: 70px;
+    
+}
+.botton6{
+    margin-top: 20px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    background-color:rgb(247, 205, 21);
+    border: none;
+}
+
+.section7{
+    background-color:#f2f2f2;;
+    display: flex;
+    padding: 80px;
+    margin-block-end: 150px;
+    justify-content: space-around;
+}
+.dcontainer7{
+    padding-top: 200px;
+    margin-left: 30px;
+}
+.titulo7{
+    font-size: 45px;
+}
+.texto7{
+    padding-right: 70px;
+}
+.botton7{
+    margin-top: 20px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    background-color:rgb(247, 205, 21);
+    border: none;
+}
+
+
+.section8{
+    margin-top: 40px;
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+.section8 .contain8{
+    background-color:black ;
+    height: 400px;
+    width: 400px;
+    color: white;
+    margin-right: 20px;
+}
+.section8 .box1 {
+ display: flex;
+justify-content: space-around;
+
+}
+
+
+.section8 .box1 input {
+   width: 150px;
+   height: 15px;
+   margin: 10px ;
+   }
+
+
+.section8 .box2 {
+    margin-left: 20px;
+}
+
+.section8 .box2 input{
+    width: 350px;
+}
+
+.section8 .box3 {
+    margin-left: 20px;
+}
+
+.section8 .box3 input{
+    width: 350px;
+}
+
+.section8 .box4 {
+    margin-left: 20px;
+}
+
+.section8 .box4 input{
+    width: 350px;
+    height: 100px;
+}
+
+.section8 .contain8 p{
+   margin-left: 20px;
+    font-size: 10px;
+    width: 350px;
+}
+.section9{
+    text-align: center;
+    background-color: #f7cd15;
+    margin-top: 100px;
+}
+.titulo9{
+    padding-top: 60px;
+    color: black;
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.texto9{
+    padding-left: 300px;
+    margin-top: 30px;
+    padding-right: 300px;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+}
+.botton9{
+    margin-top: 20px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    background-color:black;
+    border: none;
+    margin: 40px;
+    color: white;
+}
+
+.section10{
+    background-color: black;
+}
+
+.links-container {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    background-color: #000;
+    padding: 20px;
+    margin: 30px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column a {
+    color: #f7c000;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.column a:hover {
+    text-decoration: underline;
+}
+
+.text-container {
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #000;
+}
+
+.text-container h1 {
+    color: #f7c000;
+}
+
+.text-container button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.text-container p {
+    margin-top: 20px;
+}
+
+.logo-white img{
+    margin: 30px;
+    margin-left: 35px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #f7c000;
+    padding: 20px;
+}
+
+.footer .copyright {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer .social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.footer .social-icons a {
+    text-decoration: none;
+    color: #f7c000;
+    font-size: 24px;
+}
+
+.footer .social-icons a:hover {
+    color: #fff; /* Cambia el color al pasar el ratón sobre el ícono */
+}
+
+@media screen and (max-width:480px) {
+
+    nav ul li a{
+        font-size: 10px;
+    }
+    .section1 img{
+        margin-top: 10px;
+        width: 350px;
+        height: auto;
+       
+    }
+    .section1{
+        margin: 0px;
+        flex-wrap: wrap; 
+   }
+    .title{
+        font-size: 30px;
+    }
+    .img-barras {
+        width: 150px;
+    }
+    .img-container2 {
+        text-align: center;
+        margin-top: 120px;
+        
+    margin-left: -25px;
+    }
+    .section2{
+        margin: 0px;
+    }
+    .section3  {
+        font-size: 15px;
+        background-color: #FFD700;
+        margin-top: -205px;
+        height: 465px;
+        padding: 20px;
+    }
+    
+    .we{
+        font-size: 25px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .section3 p{
+        font-size: 15px;
+        margin: 15px;
+        width: 400px;
+    }
+    .section3 img {
+        width: 230px;
+        position: relative;
+        z-index: 1;
+        left: 161px;
+        top: -28px;
+    }
+
+    .title-section3{
+        width: 142px;
+    }
+    .container3{
+        margin-top: 180px;
+    }
+    .container3 p{
+        font-size: 10px;
+    }
+    .section3 button {
+        margin-left: 10px;
+    }
+    .container4{
+        flex-wrap: wrap;
+        max-width: 366px;
+        margin-left: 50px;
+        margin-right: 50px;
+        justify-content: center;
+    }
+
+    .imagen-4-1{
+        margin-top: 15px;
+        width: 250px;
+        height: auto;
+    }
+
+    .imagen4{
+        padding-top: 15px;
+        padding-left: 0px;
+        
+    }
+    .texto5 {
+        padding-left: 66px;
+        padding-right: 50px;
+    }
+
+    .container5 img{
+        width: 300px;
+        height: auto;
+    }
+    .section6 img{
+        width: 240px;
+        height: auto;
+    }
+
+    .section6 {
+        
+        flex-wrap: wrap;
+    }
+
+    .container6 {
+        padding-top: 85px;
+        margin-left: 30px;
+    }
+    .section7 img{
+        width: 300px;
+        height: 250px;
+        margin-top: 15px;
+    }
+    .section7{
+        flex-wrap: wrap;
+        
+    }
+
+    .container7 {
+        padding-top: 15px;
+    }
+    .section8{
+        flex-wrap: wrap;
+        margin-left: 35px;
+        width: 0px;
+    }
+
+    .section8 .contain8 {
+        width: 380px;
+       
+    }
+    .text-container {
+        margin-left: 65px;
+
+    }
+
+    .section9 img{
+        width: 360px;
+    }
+    .texto9 {
+        padding-left: 0px;
+        margin-left: 15px;
+        padding-right: 0px;
+    }
+}
